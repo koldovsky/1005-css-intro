@@ -5,3 +5,11 @@
 .about-us__text {
     color: aquamarine;
 }
+
+.cards__contact {
+    border: 1px solid salmon;
+}
+
+.cards__contact.selected {
+    background-color: red;
+}
