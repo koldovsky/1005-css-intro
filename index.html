@@ -7,81 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef</title>
     <link rel="shortcut icon" href="img/chef-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header__top-nav">
-            <a href="tel:+1(234)5678900" class="header__phone">+1 (234) 567 89 00</a>
-            <p class="header__location">BASED IN BROOKLYN</p>
-            <img width="120" src="img/grape-logo.svg" alt="Grape Logo">
-            <a href="contacts.html" class="header__contact-link">CONTACT CHEF</a>
-            <div class="header__social-icons icons">
-                <img width="25" src="img/twitter-logo.svg" alt="Twitter Logo" class="icons__icon-twitter">
-                <img width="25" src="img/instagram-logo.svg" alt="Instagram Logo" class="icons__icon-twitter">
-                <img width="25" src="img/twitter-logo.svg" alt="Twitter Logo" class="icons__icon-twitter">
-                <img width="25" src="img/instagram-logo.svg" alt="Instagram Logo" class="icons__icon-twitter">
-            </div>
-        </nav>
-        <nav class="header__main-menu menu">
-            <a href="#" class="menu__item">About Chef</a>
-            <a href="#" class="menu__item">Services</a>
-            <a href="#" class="menu__item">Menu</a>
-            <a href="#" class="menu__item">Testimonials</a>
-            <a href="#" class="menu__item">Mega Testimonials</a>
-            <a href="#" class="menu__item">New contact</a>
-            <a href="contacts.html" class="menu__item">Contacts</a>
-        </nav>
-        <div class="header__banner">
-            <img src="img/fish.png" alt="Fish Dish" class="header__banner-image">
-        </div>
-    </header>
+    <header data-include="header.partial.html"></header>
     <main>
-        <section class="about-us">
-            <h2 class="about-us__title">
-                <span class="space-marker">━</span>
-                About Us
-            </h2>
-            <p class="about-us__sub-title">
-                Expertly crafted tours to Norway. <span class="about-us__days">10 days</span> of admiring nordic cities.
-                fjords, and waterfalls.
-            </p>
-            <p class="about-us__text">
-                We offer guided tours in Norway - one of the most beautiful Nordic countries. We will cross the entire
-                country, from Oslo to Tromsø, visit amazing cities, and see stunning nature.
-            </p>
-            <p class="about-us__text">
-                The program is carefully thought out, there are no more than 10 people in each group plus an
-                English-speaking guide. Comfortable vans and nights in 3*+ hotels are included in the price.
-            </p>
-            <div class="about-us__cards cards">
-                <div class="cards__contact">
-                    <img class="cards__image" src="img/card-01.png" alt="Number 01">
-                    <h3 class="cards__title">Contact us</h3>
-                    <p class="cards__text">Some tour conditions may be changed according to the season. To learn more
-                        about the program, please contact us.</p>
-                </div>
-                <div class="cards__contact">
-                    <img class="cards__image" src="img/card-01.png" alt="Number 01">
-                    <h3 class="cards__title">Contact us</h3>
-                    <p class="cards__text">Some tour conditions may be changed according to the season. To learn more
-                        about the program, please contact us.</p>
-                </div>
-                <div class="cards__contact">
-                    <img class="cards__image" src="img/card-01.png" alt="Number 01">
-                    <h3 class="cards__title">Contact us</h3>
-                    <p class="cards__text">Some tour conditions may be changed according to the season. To learn more
-                        about the program, please contact us.</p>
-                </div>
-            </div>
-        </section>
+        <section data-include="about-us.partial.html"></section>
     </main>
-    <footer>
-        <h2>FOOTER!</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/oP1fYvH9kfo" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-    </footer>
+    <footer data-include="footer.partial.html"></footer>
+    <script src="js/html-data-include.js"></script>
 </body>
 
 </html>
